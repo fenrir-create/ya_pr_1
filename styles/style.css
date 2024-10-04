@@ -8,20 +8,88 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
+.grad{
+  border: 1px solid red;
+}
 
 .header {
+  display: flex;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
   /* выше установили ограничения для секции */
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
+  position: absolute;
   height: 568px;
   width: 568px;
-}
+  right: 0;
+  background-color: blue;
 
+}
+.header__logo{
+  position: absolute;
+  height: 32px;
+  width: 228px;
+  top: 30px;
+  left: 64px;
+}
+.header__logo_text{
+  font-size: 20px;
+}
+.header__title{
+  left: 64px;
+  width: 730px;
+  position: absolute;
+  
+  
+
+
+}
+.header__title_text{
+  font-size: 102px;
+  line-height: 96px;
+  font-weight: 600;
+  
+
+}
+.header__subtitle{
+  width: 388px;
+  left: 64px;
+  position: absolute;
+  bottom: 30px;
+
+}
+.header__subtitle_text{
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
+  
+
+}
+.header__link{
+  
+
+}
+.header__main-ilustration{
+  position: absolute;
+  background-size:cover;
+  height: 608px;
+  width: 765px;
+  right: 0;
+  bottom: 0;
+  
+
+
+}
+.header__main-ilustration_image{
+  background-image: url(../images/two_again.png);
+}
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
