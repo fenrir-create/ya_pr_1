@@ -11,7 +11,10 @@
 .grad{
   border: 1px solid red;
 }
-
+.margin-tb-30{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 .header {
   display: flex;
   height: 100vh;
@@ -41,6 +44,7 @@
 }
 .header__logo_text{
   font-size: 20px;
+  z-index: 2;
 }
 .header__title{
   left: 64px;
@@ -55,6 +59,7 @@
   font-size: 102px;
   line-height: 96px;
   font-weight: 600;
+  z-index: 2;
   
 
 }
@@ -69,11 +74,10 @@
   font-size: 18px;
   line-height: 25px;
   font-weight: normal;
-  
+  z-index: 2;
 
 }
 .header__link{
-  
 
 }
 .header__main-ilustration{
@@ -89,6 +93,7 @@
 }
 .header__main-ilustration_image{
   background-image: url(../images/two_again.png);
+  z-index: 1;
 }
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
@@ -97,3 +102,70 @@
   margin-right: 0;
   margin-top: 80px;
 }
+
+.content{
+  
+ 
+}
+.description{
+  display: flex;
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.description__two-columns{
+  
+  display: flex;
+  width: 80%;
+  min-height: 100px;
+  justify-content: space-between;
+  
+  margin: auto;
+
+
+}
+.description__two-columns_brief{
+  width: 175px;
+  min-width: 175px;
+  color: blue;
+  
+
+}
+.description__two-columns_main-text{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  min-width: 784px;
+  /*-------------------*/
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+
+
+
+}
+.description__two-columns_paragraph{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+
+}
+.description__two-columns_snap_accent{
+  font-weight: 600;
+
+
+}
+
+.digits{
+
+}
+.feynman{
+
+}
+.kaufman{
+
+}
+.footer{
+
+}
+
