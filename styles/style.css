@@ -247,7 +247,59 @@
 
 }
 
+.video{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
+}
+.video__iframes{
+  margin-top: 60px;
+
+}
+.video__iframe{
+  width: 515px;
+  height: 316px;
+
+}
+.oakley{
+  display: flex;
+  width: 100%;
+  padding-top: 160px;
+  padding-bottom: 100px;
+  background-color: rgb(231, 230, 228);
+  z-index: -2;
+}
+.oakley__two-columns{
+
+  display: flex;
+  width: 80%;
+  min-height: 100px;
+  justify-content: space-between;
+  
+  margin: auto;
+
+}
+.oakley__two-columns_brief{
+  width: 175px;
+  min-width: 175px;
+  color: blue;
+  
+
+}
+.oakley__two-columns_main-text{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  min-width: 784px;
+  /*-------------------*/
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+.theme_oakley{
+  background-color: bisque;
+}
 
 .digits{
   display: flex;
@@ -313,9 +365,45 @@
 
 }
 
+.khan{
+  
+}
+.khan__container{
+  width: 80%;
+  margin: 0 auto;
+
+}
+.khan__author{
+
+}
+.khan__title{
+
+}
+.khan__quote{
+
+}
+.khan__quote-author{
+
+}
+.khan__quote-author-subtitle{
+
+}
+.khan__book-container{
+
+}
+.khan__book-pic{
+
+}
+.khan__busy-link{
+
+}
+
+
+
 .feynman{
+  background-color: rgb(231, 230, 228);
+  z-index: -2;
   height: 890px;
-  margin-top: 100px;
   position: relative;
   display: flex;
 
