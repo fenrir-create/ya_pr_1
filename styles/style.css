@@ -179,6 +179,75 @@
 
 
 }
+.techniques{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width: 80%; */
+
+}
+.cards{
+  display: flex;
+  width: 1100px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 0;
+  align-items: center;
+ 
+  
+
+}
+.cards__item{
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin-top: 60px;
+  box-sizing: border-box;
+  text-align: center;
+  align-items: center;
+
+
+}
+.cards__item_S{
+  width: 200px;
+
+}
+.cards__item_M{
+  width: 300px;
+
+}
+.cards__image{
+  
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 160px;
+  height: 160px;
+  margin: 60px 40px 43px 40px;
+
+}
+.cards__title{
+  margin-bottom: 16px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  width: 160px;
+  text-align: center;
+  margin: 0 50px 0 50px;
+
+}
+.cards__description{
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  width: 160px;
+  text-align: center;
+  margin: 0 50px 0 50px;
+
+}
+
+
 
 .digits{
   display: flex;
