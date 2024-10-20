@@ -123,6 +123,7 @@
 
 }
 .header__link{
+  text-decoration: none;
 
 }
 .header__main-ilustration{
@@ -285,6 +286,7 @@
 
 }
 .oakley{
+  margin-top: -50px;
   display: flex;
   width: 100%;
   padding-top: 160px;
@@ -498,8 +500,9 @@
 
   top: 50%;
   right: 48px;
-
-
+}
+.feynman__link-text{
+  text-decoration: none;
 }
 .feynman__image{
   background-image: url(../images/feynman.png);
@@ -515,6 +518,7 @@
 }
 
 .kaufman{
+  position: relative;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -528,12 +532,12 @@
   height: 877px;
   position: absolute;
   right: -210px;
-  z-index: 0;
-  overflow: hidden;
   background-size: cover;
   background-image: url(/images/kaufman-triangle.svg);
+  z-index: 0;
   
 }
+
 
 .resources{
   display: flex;
