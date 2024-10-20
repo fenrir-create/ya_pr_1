@@ -24,6 +24,9 @@
 .margin-b-20{
   margin-bottom: 30px;
 }
+.mar-kauf{
+  margin-bottom: 100px;
+}
 .base_20{
   flex-basis: 20%;
 }
@@ -39,7 +42,26 @@
   background-color: rgb(231, 230, 228);
   z-index: -2;
 }
+
+.rotation{
+  animation: 20s linear 0s infinite rot;
+
+}
+@keyframes rot{
+  0%{
+    transform: rotate(0deg);
+
+  }
+  100%{
+    transform: rotate(360deg);
+
+  }
+
+}
+
+
 .header {
+  overflow: hidden;
   display: flex;
   height: 100vh;
   min-height: 600px;
@@ -366,35 +388,67 @@
 }
 
 .khan{
-  
+  margin-top: 100px;
+  z-index: -1;
+  background-color: rgb(231, 230, 228);
 }
 .khan__container{
   width: 80%;
   margin: 0 auto;
+  margin-top: 100px;
 
 }
 .khan__author{
-
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
 }
 .khan__title{
-
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+  
 }
 .khan__quote{
+  margin-top: 50px;
+
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+  width: 790px;
 
 }
 .khan__quote-author{
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+
+  margin-top: 36px;
 
 }
 .khan__quote-author-subtitle{
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+
+  margin-top: 10px;
 
 }
 .khan__book-container{
-
+  margin-top: 68px;
+  display: flex;
 }
 .khan__book-pic{
+  width: 608px;
+  height: 620px;
 
 }
 .khan__busy-link{
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  width: 300px;
+  margin-left: 48px;
 
 }
 
@@ -461,22 +515,45 @@
 }
 
 .kaufman{
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
-  overflow: hidden;
   color: white;
+  padding-bottom: 100px;
   
 }
 .kaufman__triangle{
-  background-image: url(/images/kaufman-triangle.svg);
   width: 877px;
   height: 877px;
   position: absolute;
-  background-size: cover;
   right: -210px;
   z-index: 0;
+  overflow: hidden;
+  background-size: cover;
+  background-image: url(/images/kaufman-triangle.svg);
+  
 }
+
+.resources{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.resources__logo-zone{
+  width: 1100px;
+  margin-top: 80px;
+  display: flex;
+  margin-bottom: 217px ;
+
+}
+.resources__link{
+  width: 270px;
+  height: 38px;
+  
+
+}
+
 
 .footer {
   min-height: 350px;
