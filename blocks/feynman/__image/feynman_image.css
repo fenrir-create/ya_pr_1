@@ -1,0 +1,12 @@
+.feynman__image{
+    background-image: url(../images/feynman.png);
+    /* alt: "lsfn"; */
+    background-size: cover;
+    height: 637px;
+    width: 837px;
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+   
+  
+  }

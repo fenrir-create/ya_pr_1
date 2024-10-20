@@ -1,0 +1,8 @@
+.feynman{
+    background-color: rgb(231, 230, 228);
+    z-index: -2;
+    height: 890px;
+    position: relative;
+    display: flex;
+  
+  }

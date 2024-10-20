@@ -1,0 +1,9 @@
+.oakley{
+    margin-top: -50px;
+    display: flex;
+    width: 100%;
+    padding-top: 160px;
+    padding-bottom: 100px;
+    background-color: rgb(231, 230, 228);
+    z-index: -2;
+  }

@@ -1,4 +1,4 @@
-.description__two-columns_main-text{
+.oakley__two-columns_main-text{
     display: flex;
     flex-direction: column;
     width: 80%;
@@ -7,7 +7,4 @@
     line-height: 1.2;
     font-size: 18px;
     font-weight: normal;
-  
-  
-  
   }
