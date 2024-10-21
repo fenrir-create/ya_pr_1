@@ -138,7 +138,7 @@
 
 }
 .header__main-ilustration_image{
-  background-image: url(../images/two_again.png);
+  background-image: url(/images/two_again.png);
   z-index: 1;
 }
 /* и элемента с модификатором вида ключ-значение */
